@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "crewai-openterms"
-version = "0.1.0"
+version = "0.3.1"
 description = "OpenTerms protocol integration for CrewAI: permission-aware AI agents"
 readme = "README.md"
 license = {text = "MIT"}
@@ -30,11 +30,11 @@ dependencies = [
 
 [project.optional-dependencies]
 sdk = [
-    "openterms-py>=0.1.0",
+    "openterms-py>=0.3.0",
 ]
 dev = [
     "pytest>=7.0",
-    "openterms-py>=0.1.0",
+    "openterms-py>=0.3.0",
 ]
 
 [project.urls]
