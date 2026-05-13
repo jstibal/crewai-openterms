@@ -2,6 +2,14 @@
 
 Permission-aware CrewAI tools for checking OpenTerms before an agent acts.
 
+## Related OpenTerms Packages
+
+openterms-py](https://pypi.org/project/openterms-py/) — Core Python SDK for checking machine-readable permission rules.
+[langchain-openterms](https://pypi.org/project/langchain-openterms/) — OpenTerms tools for LangChain agents.
+[crewai-openterms](https://pypi.org/project/crewai-openterms/) — OpenTerms tools for CrewAI agents.
+[openterms-examples](https://github.com/jstibal/openterms-examples) — Runnable examples for Python, LangChain, and CrewAI.
+[OpenTerms SDK docs](https://openterms.com/sdk) — SDK reference and integration guide.
+
 ## Install
 
     pip install crewai-openterms
